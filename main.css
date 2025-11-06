@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: auto;
+}
+
+main {
+    background-color: #fff;
+}
+
+#box {
+    display: inline-grid;
+    grid-template-columns: .25fr 1fr .25fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#left-box, #right-box {
+    vertical-align: center;
+}
+
