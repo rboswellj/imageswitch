@@ -1,3 +1,5 @@
+// TODO get left and right working to cycle through images
+
 const kermitButton = document.getElementById('kermit-button');
 const animalButton = document.getElementById('animal-button');
 const fozzieButton = document.getElementById('fozzie-button');

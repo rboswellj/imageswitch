@@ -1,12 +1,15 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #afcea0;
     margin: auto;
 }
 
-main {
-    background-color: #fff;
+
+header {
+    background-color: #dac439;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
 }
 
 #box {
@@ -14,9 +17,34 @@ main {
     grid-template-columns: .25fr 1fr .25fr;
     align-items: center;
     justify-items: center;
+    background-color: #fff;
 }
 
 #left-box, #right-box {
     vertical-align: center;
+    justify-items: center;
 }
 
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #7aaddb;
+    border-radius: .25em;
+}
+
+#button-container {
+    margin: 0 0 20px 0;
+    justify-content: center;
+    gap: 10px;
+    background-color: #3d73a2;
+}
+
+#muppet-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+}
