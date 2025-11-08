@@ -26,14 +26,16 @@ function findNextMuppet(currentMuppet, direction) {
 }
 
 leftButton.addEventListener('click', () => {
-    const currentMuppet = getElementById('muppet-image').alt.toLowerCase()
+    const currentMuppet = document.getElementById('muppet-image').alt.toLowerCase()
     const nextMuppet = findNextMuppet(currentMuppet, 'left');
     muppetImage.src = `./assets/${nextMuppet}.jpg`;
     muppetImage.alt = nextMuppet.charAt(0).toUpperCase() + nextMuppet.slice(1);
+    comsole.log(currentMuppet);
+    console.log(nextMuppet);
 });
 
 rightButton.addEventListener('click', () => {
-    const currentMuppet = getElementById('muppet-image').alt.toLowerCase()
+    const currentMuppet = document.getElementById('muppet-image').alt.toLowerCase()
     const nextMuppet = findNextMuppet(currentMuppet, 'right');
     muppetImage.src = `./assets/${nextMuppet}.jpg`;
     muppetImage.alt = nextMuppet.charAt(0).toUpperCase() + nextMuppet.slice(1);
